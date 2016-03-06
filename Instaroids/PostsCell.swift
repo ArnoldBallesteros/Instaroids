@@ -14,15 +14,30 @@ class PostsCell: UITableViewCell {
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var captionLabel: UILabel!
     
-    var posts: PFObject? {
+    var post: PFObject? {
         didSet {
-            usernameLabel.text = posts!["author"] as? String
-            captionLabel.text = posts!["caption"] as? String
-           // Post.getPFFileFromImage(UIImage?)
+            picture = Posting(post: post!)
+            picture.cell = self
             
+            /*
+            usernameLabel.text = posts!["author"] as? String
+            print(usernameLabel.text)
+            captionLabel.text = posts!["caption"] as? String
+            postImageView.image = posts!["media"] as? UIImage
+           // Post.getPFFileFromImage(UIImage?)
+            */
         }
     }
     
+    var picture: Posting! {
+        didSet {
+            postImageView.image = picture.image
+            captionLabel.text = picture.caption
+            usernameLabel.text = picture.author
+            print("Labels")
+        }
+    }
+   
     
     override func awakeFromNib() {
         super.awakeFromNib()

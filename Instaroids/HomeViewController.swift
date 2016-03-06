@@ -17,6 +17,12 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: "refreshControlAction:", forControlEvents: UIControlEvents.ValueChanged)
+        tableView.insertSubview(refreshControl, atIndex: 0)
+        
+        tableView.delegate = self
+        tableView.dataSource = self
         loadPosts()
         tableView.reloadData()
 
@@ -42,9 +48,10 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("PostsCell", forIndexPath: indexPath) as! PostsCell
-        
-        cell.posts = posts![indexPath.row]
-        cell.selectionStyle = UITableViewCellSelectionStyle.None
+        if (posts != nil) {
+            let post = posts![indexPath.row]
+            cell.post = post
+        }
     
         return cell
     }
@@ -56,10 +63,10 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         query.orderByDescending("createdAt")
         query.includeKey("author")
         query.limit = 20
-        
+        print(query)
         // fetch data asynchronously
         query.findObjectsInBackgroundWithBlock { (post: [PFObject]?, error: NSError?) -> Void in
-            if error == nil {
+            if let post = post {
                 print("Loading asynchronously")
                 self.posts = post
                 self.tableView.reloadData()
@@ -67,7 +74,13 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             } else {
                 print(error)
             }
+            
         }
+    }
+    func refreshControlAction(refreshControl: UIRefreshControl) {
+        self.tableView.reloadData()
+        loadPosts()
+        refreshControl.endRefreshing()
     }
     
     /*

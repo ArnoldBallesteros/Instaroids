@@ -6,6 +6,6 @@
 target 'Instaroids' do
 
 	pod ‘Parse’
-
+	pod ‘MBProgressHUD’
 end
 

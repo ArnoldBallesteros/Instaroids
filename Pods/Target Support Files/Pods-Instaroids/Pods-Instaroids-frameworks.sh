@@ -85,9 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Instaroids/Bolts.framework"
+  install_framework "Pods-Instaroids/MBProgressHUD.framework"
   install_framework "Pods-Instaroids/Parse.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Instaroids/Bolts.framework"
+  install_framework "Pods-Instaroids/MBProgressHUD.framework"
   install_framework "Pods-Instaroids/Parse.framework"
 fi
