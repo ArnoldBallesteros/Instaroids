@@ -1,0 +1,6 @@
+framework module Pods_Instaroids {
+  umbrella header "Pods-Instaroids-umbrella.h"
+
+  export *
+  module * { export * }
+}

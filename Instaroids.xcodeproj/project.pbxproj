@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56D5213121C083222491B145 /* Pods_Instaroids.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498127E31C6F0C6BD72A8DB3 /* Pods_Instaroids.framework */; };
 		8B7AFE5E1C8BA0A200E971E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AFE5D1C8BA0A200E971E5 /* AppDelegate.swift */; };
-		8B7AFE601C8BA0A200E971E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AFE5F1C8BA0A200E971E5 /* ViewController.swift */; };
 		8B7AFE631C8BA0A200E971E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AFE611C8BA0A200E971E5 /* Main.storyboard */; };
 		8B7AFE651C8BA0A200E971E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AFE641C8BA0A200E971E5 /* Assets.xcassets */; };
 		8B7AFE681C8BA0A200E971E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AFE661C8BA0A200E971E5 /* LaunchScreen.storyboard */; };
+		8B7AFE711C8BA22600E971E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AFE701C8BA22600E971E5 /* LoginViewController.swift */; };
+		8B7AFE731C8BAC5000E971E5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AFE721C8BAC5000E971E5 /* HomeViewController.swift */; };
+		8B7AFE761C8BAD4500E971E5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AFE751C8BAD4500E971E5 /* Post.swift */; };
+		8B7AFE781C8BB63500E971E5 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AFE771C8BB63500E971E5 /* PostViewController.swift */; };
+		8B7AFE7B1C8BBEAC00E971E5 /* PostsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AFE7A1C8BBEAC00E971E5 /* PostsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		498127E31C6F0C6BD72A8DB3 /* Pods_Instaroids.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instaroids.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7AFE5A1C8BA0A200E971E5 /* Instaroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instaroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7AFE5D1C8BA0A200E971E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B7AFE5F1C8BA0A200E971E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B7AFE621C8BA0A200E971E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B7AFE641C8BA0A200E971E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B7AFE671C8BA0A200E971E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B7AFE691C8BA0A200E971E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7AFE701C8BA22600E971E5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B7AFE721C8BAC5000E971E5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8B7AFE751C8BAD4500E971E5 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8B7AFE771C8BB63500E971E5 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		8B7AFE7A1C8BBEAC00E971E5 /* PostsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsCell.swift; sourceTree = "<group>"; };
+		9F21069C8D39A120C240DD18 /* Pods-Instaroids.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instaroids.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instaroids/Pods-Instaroids.release.xcconfig"; sourceTree = "<group>"; };
+		DEFA8F3CED6255B81B47BE41 /* Pods-Instaroids.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instaroids.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instaroids/Pods-Instaroids.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D5213121C083222491B145 /* Pods_Instaroids.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402FE2F2014B745282A43EC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				498127E31C6F0C6BD72A8DB3 /* Pods_Instaroids.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B7AFE511C8BA0A200E971E5 = {
 			isa = PBXGroup;
 			children = (
 				8B7AFE5C1C8BA0A200E971E5 /* Instaroids */,
 				8B7AFE5B1C8BA0A200E971E5 /* Products */,
+				9A55E8FEC4FDB97F9320DDCC /* Pods */,
+				402FE2F2014B745282A43EC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,51 @@
 		8B7AFE5C1C8BA0A200E971E5 /* Instaroids */ = {
 			isa = PBXGroup;
 			children = (
+				8B7AFE741C8BAD2A00E971E5 /* Models */,
+				8B7AFE791C8BBE9000E971E5 /* Cells */,
+				8B7AFE6F1C8BA21800E971E5 /* View Controllers */,
 				8B7AFE5D1C8BA0A200E971E5 /* AppDelegate.swift */,
-				8B7AFE5F1C8BA0A200E971E5 /* ViewController.swift */,
 				8B7AFE611C8BA0A200E971E5 /* Main.storyboard */,
 				8B7AFE641C8BA0A200E971E5 /* Assets.xcassets */,
 				8B7AFE661C8BA0A200E971E5 /* LaunchScreen.storyboard */,
 				8B7AFE691C8BA0A200E971E5 /* Info.plist */,
 			);
 			path = Instaroids;
+			sourceTree = "<group>";
+		};
+		8B7AFE6F1C8BA21800E971E5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B7AFE701C8BA22600E971E5 /* LoginViewController.swift */,
+				8B7AFE721C8BAC5000E971E5 /* HomeViewController.swift */,
+				8B7AFE771C8BB63500E971E5 /* PostViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8B7AFE741C8BAD2A00E971E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B7AFE751C8BAD4500E971E5 /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8B7AFE791C8BBE9000E971E5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8B7AFE7A1C8BBEAC00E971E5 /* PostsCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		9A55E8FEC4FDB97F9320DDCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEFA8F3CED6255B81B47BE41 /* Pods-Instaroids.debug.xcconfig */,
+				9F21069C8D39A120C240DD18 /* Pods-Instaroids.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B7AFE6C1C8BA0A200E971E5 /* Build configuration list for PBXNativeTarget "Instaroids" */;
 			buildPhases = (
+				52F9586A655397948C17E27A /* Check Pods Manifest.lock */,
 				8B7AFE561C8BA0A200E971E5 /* Sources */,
 				8B7AFE571C8BA0A200E971E5 /* Frameworks */,
 				8B7AFE581C8BA0A200E971E5 /* Resources */,
+				17EEDA7540EE5604DC994182 /* Embed Pods Frameworks */,
+				16C083D34E808F3E3DD2D635 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +194,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16C083D34E808F3E3DD2D635 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instaroids/Pods-Instaroids-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17EEDA7540EE5604DC994182 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instaroids/Pods-Instaroids-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F9586A655397948C17E27A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B7AFE561C8BA0A200E971E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B7AFE601C8BA0A200E971E5 /* ViewController.swift in Sources */,
+				8B7AFE711C8BA22600E971E5 /* LoginViewController.swift in Sources */,
 				8B7AFE5E1C8BA0A200E971E5 /* AppDelegate.swift in Sources */,
+				8B7AFE731C8BAC5000E971E5 /* HomeViewController.swift in Sources */,
+				8B7AFE7B1C8BBEAC00E971E5 /* PostsCell.swift in Sources */,
+				8B7AFE761C8BAD4500E971E5 /* Post.swift in Sources */,
+				8B7AFE781C8BB63500E971E5 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +363,7 @@
 		};
 		8B7AFE6D1C8BA0A200E971E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFA8F3CED6255B81B47BE41 /* Pods-Instaroids.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Instaroids/Info.plist;
@@ -259,6 +375,7 @@
 		};
 		8B7AFE6E1C8BA0A200E971E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F21069C8D39A120C240DD18 /* Pods-Instaroids.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Instaroids/Info.plist;
@@ -287,6 +404,7 @@
 				8B7AFE6E1C8BA0A200E971E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
