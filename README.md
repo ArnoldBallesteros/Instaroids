@@ -1,8 +1,8 @@
-# Project 6 - Instaroids*
+# Project 6 - Instaroids
 
 **Instaroids** is a photo sharing app using Parse as its backend.
 
-Time spent: **15** hours spent in total
+Time spent: **23** hours spent in total
 
 ## User Stories
 
