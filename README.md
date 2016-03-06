@@ -12,20 +12,23 @@ The following **required** functionality is completed:
 -  User can log in and log out of his or her account
 -  The current signed in user is persisted across app restarts
 -  User can take a photo, add a caption, and post it to "Instagram"
-- [ ] User can view the last 20 posts submitted to "Instagram"
+-  User can view the last 20 posts submitted to "Instagram"
 
 The following **optional** features are implemented:
 
 - [ ] Show the username and creation time for each post
-- [ ] After the user submits a new post, show a progress HUD while the post is being uploaded to Parse.
+-  After the user submits a new post, show a progress HUD while the post is being uploaded to Parse.
 - [ ] User Profiles:
    - [ ] Allow the logged in user to add a profile photo
    - [ ] Display the profile photo with each post
    - [ ] Tapping on a post's username or profile photo goes to that user's profile page
 
 The following **additional** features are implemented:
+- Pull to refresh feature
+- Once logged out, app performs a segue back to the login controller
+- Added launchscreen
+- Implemented Icons onto tabbar buttons
 
-- [ ] List anything else that you can get done to improve the app functionality!
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
@@ -36,7 +39,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/PIqxF3Z.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -46,7 +49,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Arnold Ballesteros]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
